@@ -34,7 +34,6 @@
   border-bottom: 1px solid #000;
 }
 
-/* Логотип фиксированных размеров */
 .header__logo {
   display: grid;
   align-content: start;
@@ -46,7 +45,6 @@
   display: block;
 }
 
-/* Адрес и контакты */
 .header__address {
   display: flex;
   justify-content: flex-end;
@@ -75,7 +73,7 @@
 /* ========== COVER ========== */
 
 .cover {
-  background: center/cover url("images/cover.jpg");
+  background: center/cover url("../images/cover.jpg");
   position: relative;
 }
 
@@ -208,15 +206,15 @@
 }
 
 .card--film {
-  background-image: url("images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card--book {
-  background-image: url("images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card--art {
-  background-image: url("images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
@@ -291,7 +289,7 @@
 
 /* ========== FOOTER ========== */
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   margin: 0 50px 90px;
