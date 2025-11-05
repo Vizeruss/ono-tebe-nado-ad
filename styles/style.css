@@ -6,11 +6,6 @@ header {
     font-size: 18px;
 }
 
-a {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
 .title {
     margin-left: 40px;
     padding: 0;
@@ -29,7 +24,7 @@ a {
 
 }
 
-.item-main {
+.item-main {     
     list-style: none;
 }
 
@@ -41,6 +36,11 @@ a {
 .logo-black {
     width: auto;
     height: 105px;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .contact-list {
@@ -65,7 +65,7 @@ a {
     background-size: 130%;
 }
 
-.welcome-content {
+.welcome-container {
     margin: 165px 50px 50px 50px;
 }
 
