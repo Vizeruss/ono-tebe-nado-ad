@@ -1,9 +1,23 @@
 header {
     display: flex;
     align-items: center;
+    margin: 0 50px;
     height: 293px;
-    margin: 0 50px 0 50px;
     font-size: 18px;
+}
+
+.menu {
+    padding-right: 2.3em;
+}
+
+.menu-list {
+    display: flex;
+    list-style: circle;
+    gap: 2em;
+}
+
+.item-main {
+    list-style: none;
 }
 
 a {
@@ -11,46 +25,24 @@ a {
     text-underline-offset: 4px;
 }
 
-.title {
-    margin-left: 40px;
-    padding: 0;
-    font-weight: bold;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-.menu {
-    padding-right: 36px;
-}
-
-.menu-list {
-    display: flex;
-    gap: 32px;
-    list-style: circle;
-
-}
-
-.item-main {
-    list-style: none;
-}
-
-
 .button-main {
     text-decoration: none;
 }
 
 .logo-black {
-    width: auto;
     height: 105px;
+    width: auto;
 }
 
 .contact-list {
+    list-style: none;
     width: 240px;
     margin-left: 200px;
-    line-height: 25px;
-    list-style: none;
+    line-height: 1.4;
 }
 
-.phone-number, .e-mail {
+.phone-number, 
+.e-mail {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -59,41 +51,38 @@ a {
     display: flex;
     width: 1100px;
     height: 757px;
-    background-image: url('/images/cover.jpg');
-    background-repeat: no-repeat;
-    background-position: 45%;
-    background-size: 130%;
-}
-
-.welcome-content {
-    margin: 165px 50px 50px 50px;
+    background: url('/images/cover.jpg') no-repeat 45% / 130%;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.welcome-content {
+    margin: 165px 50px 50px;
 }
 
 .name {
     display: flex;
     flex-direction: column;
+    color: #fff;
     width: 1000px;
     height: 385px;
-    color: white;
-    font-weight: bold;
+    list-style: none;
+    font-weight: 700;
     font-size: 100px;
     line-height: 115px;
-    letter-spacing: 0.3em;
     text-transform: uppercase;
-    list-style: none;
+    letter-spacing: 0.3em;
 }
 
 .you {
     align-self: center;
-    margin-top: 20px;
+    margin-top: 1.3em;
 }
 
 .need {
-    align-self: end;
+    align-self: flex-end;
     margin-top: 20px;
 }
 
@@ -102,10 +91,10 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 105px;
-    color: white;
     font-size: 22px;
-    line-height: 28px;
+    color: #fff;
     text-transform: uppercase;
+    line-height: 28px;
 }
 
 .intro-text {
@@ -113,22 +102,27 @@ a {
 }
 
 .make-a-bid-button {
+    display: inline-block;
+    border: 1px solid #fff;
+    background: transparent;
     width: 256px;
     height: 51px;
-    border: 1px solid white;
-    color: white;
-    font-style: bold;
+    color: #fff;
+    font-weight: 600;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0);
-    
+    cursor: pointer;
 }
 
 .lots {
-    margin: 180px 24px 120px 24px;
+    margin: 180px 24px 120px;
 }
 
-.see-more {
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
     margin-left: 40px;
+    padding: 0;
 }
 
 .lots-content {
@@ -146,18 +140,20 @@ a {
     align-items: center;
     height: 100%;
     padding: 48px 40px;
-    color: white;
+    color: #fff;
     font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0em;
-    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+    letter-spacing: 0;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .lot-content p {
     width: 254px;
 }
 
-.lot-movie, .lot-book, .lot-picture {
+.lot-movie, 
+.lot-book, 
+.lot-picture {
     background-position: 50%;
     background-size: cover;
 }
@@ -187,12 +183,13 @@ a {
 
 .logo-circle {
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     width: 240px;
     height: 240px;
     margin-top: 35px;
-    border-radius: 100%;
-    background-color: black;
+    border-radius: 50%;
+    background: #000;
 }
 
 .logo-white {
@@ -205,21 +202,19 @@ a {
 
 .about-title {
     display: block;
-    margin: 0;
-    margin-top: 136px;
-    margin-bottom: 100px;
+    margin: 136px 0 100px;
 }
 
 .about-text {
     margin-top: 30px;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    margin: 180px 50px 82px 50px;
+    margin: 180px 50px 82px;
 }
 
 footer .menu-list {
