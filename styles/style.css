@@ -17,6 +17,7 @@ header {
     padding-right: 36px;
 }
 
+
 .menu-list {
     display: flex;
     gap: 32px;
@@ -24,7 +25,12 @@ header {
 
 }
 
-.item-main {     
+a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.item-main {
     list-style: none;
 }
 
@@ -36,11 +42,6 @@ header {
 .logo-black {
     width: auto;
     height: 105px;
-}
-
-a {
-    text-decoration: underline;
-    text-underline-offset: 4px;
 }
 
 .contact-list {
@@ -65,7 +66,7 @@ a {
     background-size: 130%;
 }
 
-.welcome-container {
+.welcome-content {
     margin: 165px 50px 50px 50px;
 }
 
@@ -180,6 +181,8 @@ a {
     text-transform: uppercase;
 }
 
+/* about */
+
 .about {
     display: flex;
     margin: 0 24px;
@@ -215,6 +218,8 @@ a {
     font-size: 20px;
     line-height: 24px;
 }
+
+/* footer */
 
 footer {
     display: flex;
